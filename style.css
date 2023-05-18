@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ /* BODY INHERIT */
+body{
+    font-size: 20px;
+    font-family: sans-serif;
+    background-color: whitesmoke;
+}
+/* NAVIGATION STYLING */
+nav {
+    display: flex;
+    background-color: azure;
+    height: 70px;
+    justify-content: space-around;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    align-self: center;
+}
+
+
+
+a{
+    padding: 25px;
+    text-decoration: none;
+}
+
+a:link{
+    color: aqua;
+}
+a:hover {
+    background-color: orangered;
+    color: honeydew;
+}
